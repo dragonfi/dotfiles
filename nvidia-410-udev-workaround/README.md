@@ -2,7 +2,7 @@
 
 #### Description
 
-The nvidia 410 driver works really well, even having Vulvan support.
+The nvidia 410 driver works really well, even having Vulcan support.
 The issue is that due to a bug, it tends to drive the systemd-udevd
 service to use a whole CPU core over time.
 
