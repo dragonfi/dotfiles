@@ -1,0 +1,8 @@
+[Unit]
+Description=Workaround for nvidia-410 bug
+
+[Service]
+ExecStart=/etc/systemd/system/restart-udevd.sh
+
+[Install]
+WantedBy=multi-user.target
