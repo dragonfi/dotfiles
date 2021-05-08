@@ -1,0 +1,4 @@
+#/etc/udev/rules.d/01-asrock-LED-controller.rules
+# do not list the LED controller as a joystic
+# source: https://bbs.archlinux.org/viewtopic.php?id=261161
+SUBSYSTEM=="usb", ATTRS{idVendor}=="26ce", ATTRS{idProduct}=="01a2", ATTR{authorized}="0"
